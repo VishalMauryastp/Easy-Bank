@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.r {
+    border: 1px solid black;
+}
+
+input,
+input:focus {
+    @apply outline-none
+}
+
+input::-ms-reveal,
+input::-ms-clear {
+    display: none;
+}
+
+.b{
+    border:  2px solid red;
+}
+
+.header .active{
+    border-bottom: 3px solid #9698a6;
+    color: #2d314d;
+color: #31d35c;
+column-rule-color: #2bb7da;
+color: #9698a6;
+color: #f3f4f6;
+color: #f3f4f6;
+
+color:   #fafafa;
+}
+/* .swiper{
+    z-index: -1 !important;
+} */
+
