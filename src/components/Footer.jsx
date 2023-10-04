@@ -18,7 +18,7 @@ const Footer = () => {
             <div className="flex gap-4 w-fit mx-auto mt-8 md:mt-0 ">
               {icons.map((val, i) => {
                 return (
-                  <Link href={"/"}>
+                  <Link key={i} href={"/"}>
                     <img src={val} alt="loading..." />
                   </Link>
                 );
